@@ -34,6 +34,8 @@ public class IOIOSimpleApp extends IOIOActivity {
 		private AnalogInput input_;
 		private PwmOutput pwmOutput_;
 		private DigitalOutput led_;
+		
+		boolean notify = false; //condition for notification
 
 		@Override
 		public void setup() throws ConnectionLostException {
